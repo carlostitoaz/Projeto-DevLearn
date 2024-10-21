@@ -1,3 +1,4 @@
+/*
 package com.DevLearn.dao;
 
 import com.DevLearn.model.Class;
@@ -11,3 +12,4 @@ public interface IClassDAO {
     void updateClass(Class vclass);
     void deleteClass(int id);
 }
+*/
