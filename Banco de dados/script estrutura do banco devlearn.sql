@@ -59,9 +59,9 @@ CREATE TABLE categoria (
 );
 
 CREATE TABLE curso_categoria (
+    id_curso_categoria INT PRIMARY KEY,
     id_curso INT,
     id_categoria INT,
-    PRIMARY KEY (id_curso, id_categoria),
     FOREIGN KEY (id_curso) REFERENCES curso(id_curso),
     FOREIGN KEY (id_categoria) REFERENCES categoria(id_categoria)
 );
