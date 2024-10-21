@@ -1,3 +1,4 @@
+/*
 package com.DevLearn.model;
 
 public class Class {
@@ -47,3 +48,4 @@ public class Class {
         this.url = url;
     }
 }
+*/
